@@ -1,0 +1,37 @@
+# Traffic Sign Classification 
+A deep learning project that classifies traffic signs using a Convolutional Neural Network (CNN).  
+This model can recognize multiple types of signs and is suitable for use in driver-assistance systems, road-safety applications, and prototype autonomous systems.
+
+---
+
+## Features
+- Image preprocessing and normalisation 
+- CNN architecture for multi-class classification  
+- Training, validation, and accuracy visualisation 
+- Confusion matrix for performance insights  
+- Easily extendable to mobile or edge deployment  
+
+---
+
+##  Dataset
+The project uses a labelled traffic-sign dataset (e.g., German Traffic Sign Recognition Benchmark – GTSRB or similar).  
+Ensure your dataset is structured as:
+
+dataset/
+├── Train/
+└── Test/
+
+
+Each class folder should contain its respective images.
+
+---
+
+## Model Architecture
+- Convolutional layers  
+- MaxPooling layers  
+- Dropout for regularization  
+- Dense layers for classification  
+- Softmax output layer  
+
+---
+https://colab.research.google.com/drive/1Hva3qy3a_nUnMyMZAGfIilVTCa7I5-ZE?usp=sharing
